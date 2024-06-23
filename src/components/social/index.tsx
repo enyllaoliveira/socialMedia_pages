@@ -3,15 +3,17 @@ import { ReactNode } from 'react'
 interface SocialProps{
     url: string;
     children: ReactNode;
+    className?: string;
 }
 
-export function Social({ url, children} : SocialProps) {
+export function Social({ url, children, className} : SocialProps) {
     return(
         <a 
-        href={url} 
-        rel="noopener noreferrer"
-        target='_blank'
+            href={url} 
+            rel="noopener noreferrer"
+            target='_blank'
+            className={className}
         >
-        {children} </a>
+ {children} </a>
     )
 }
