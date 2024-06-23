@@ -32,7 +32,7 @@ export function Login() {
     return(
         <div className="flex w-full h-screen items-center justify-center flex-col">
             <Link to='/'>
-            <h1 className="h-9 text-lg font-medium text-white"> Meus Links 
+            <h1 className="h-9 text-lg font-medium text-white"> Área de login
             </h1>
             </Link>
 
